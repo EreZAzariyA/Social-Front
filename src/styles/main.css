@@ -1,0 +1,41 @@
+html,body,#root{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+.router-layout .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.auth-router {
+  text-align: center;
+  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg?w=900&t=st=1676718992~exp=1676719592~hmac=b65877c26551811a104e2b0821f28f0d62f8dc355cb7076d88dae0106f8c01f8');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  color: white;
+  display: grid;
+  grid-template-rows: 10% 90%;
+}
+
+.auth-router .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+}
+
+.auth-router .action {
+  color: white;
+}
+
+
+.avatar_style{
+  background-color: transparent;
+}
